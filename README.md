@@ -58,9 +58,18 @@ To find out the endpoints available to you in the initial application, you will 
   * [ ] Routes for CURL command
     * [ ] GET /users/myinfo
     * [ ] GET /carts/user
-    * [ ] POST /carts/create/product/1
-    * [ ] PUT /carts/update/cart/1/product/1
-    * [ ] DELETE /carts/delete/cart/1/product/1
+    * [ ] DELETE /products/product/6
+    * [ ] POST /products/product with this information:
+
+```
+    {
+        "name": "RABBIT",
+        "price": 300.0,
+        "description": "A Great Pet",
+        "comments": "Also known as a Bunny"
+    }
+```
+
 * [ ] Extend the unit tests for Cart Items service to 100% coverage
 * [ ] Extend the unit tests for Cart Items controller to 100% coverage
 * [ ] Extend the integration tests for the Cart Items controller to 100% coverage
